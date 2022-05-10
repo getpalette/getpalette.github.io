@@ -11,7 +11,7 @@ const customRange = document.getElementById('customRange')
 const customRangePanel = document.getElementById('customRangePanel')
 const colorCounter = document.getElementById('colorCounter')
 const getPalette = eval('demo.getPalette')
-const whiteColor = eval('demo.whiteColor')
+const whiteColor = eval('demo.whiteColor()')
 
 imageView.style.opacity = '0'
 spinner.style.display = 'none'
